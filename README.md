@@ -22,3 +22,7 @@ Here is the setup that was used for filming the course.
   * Using ~80% `GAIN`.
   * Using `Cardioid` pattern.
 * Using 3 point lightning with 3 LCS smart lights.
+* Using [telepromptermirror.com](https://telepromptermirror.com/telepromptersoftware.htm) for teleprompter.
+  * Using Font 44, Size 44.
+  * Using BG 17, Speed 17.
+  * Using margin 4%.
