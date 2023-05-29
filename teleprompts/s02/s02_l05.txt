@@ -1,0 +1,89 @@
+
+
+
+
+
+
+Now that we have covered all event storming concepts and did our first event storming session
+let's go through ten tips that will help you facilitate your event storming sessions.
+
+
+1. Have the right stakeholders in the room.
+
+
+This is the most important piece of advice that can make your event storming better.
+Without the right people your event storming might not provide much value.
+
+
+2. Make sure to plan the session and be clear about goals and non-goals.
+
+
+Most probably you will have several sessions and not just one.
+Be clear about the goal of each session - for example by saying "In this session we will be covering only actors and commands.".
+
+
+3. Send instructions upfront.
+As you already see, there is some context about this technique.
+
+
+Make sure that participants can read about what is event storming and what are different types of stickies.
+
+
+4. You can also accompany instructions with an example.
+Although for some participants instructions will work well, for others a concrete example of a full event storming board can work even better.
+
+
+5. Keep insisting on non-technical language.
+
+
+You will have both technical and non-technical people in the room.
+It is your job to keep the tone non-technical so that everyone can follow.
+
+
+Be aware of engineers going into the details of implementation.
+
+
+6. I read somewhere that when you mention the word aggregate during event storming, domain experts tend to fall a sleep.
+
+
+Be very careful with the discussion on aggregates dragging on.
+You can even consider leaving aggregates for the last session and have it with engineers-only.
+
+
+7. Engage silent participants.
+
+
+Usually the loudest people will drive the conversation.
+However, often the loudest ones are not the ones that have the most knowledge.
+
+
+Engage silent participants by asking "What do you think?".
+
+
+8. Exploring an unknown domain model is a rough road.
+There will for sure be moments when the group will get stuck.
+
+
+It is your job to unblock progress by adding a big question mark, noting the ambiguity and encouraging to move on.
+
+
+9. After few sessions the value and knowledge that people will get out of the sessions will diminish.
+
+
+Be mindful of this and know when to stop.
+
+
+Sometimes a quick pulse-check after the session can help with determining if participants are willing to keep event storming.
+
+
+10. And finally have fun!
+
+
+Event storming should not be a super serious and formal experience.
+
+
+Elicit informal behaviour by doing an icebreaker at the start of each session and keeping the tone fun and light.
+
+
+And that's it!  
+Now you should be ready to facilitate your own event storming sessions.

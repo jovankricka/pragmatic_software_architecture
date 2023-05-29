@@ -1,3 +1,5 @@
+# Views, policies, aggregates and external systems
+
 In this lecture, we'll focus on remaining four event storming elements:
 
 * views,
