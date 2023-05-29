@@ -1,0 +1,44 @@
+
+
+
+
+Congratulations on reaching the final lecture of this section!  
+
+
+In this summary lecture, we'll recap the key concepts and insights we've covered throughout the event storming section.
+
+
+We started with an introduction to event storming and its significance in software modeling.  
+
+
+We explored the event storming format, to show what are the goals and expected outcome of this workshop.
+
+
+We delved deeper into the roles of actors, commands, and events, understanding how they shape the system's behavior.  
+
+
+* Actors represent the entities or systems interacting with the software,
+* commands capture the intentions or requests made by actors and
+* events represent state changes or significant occurrences within the system.
+
+
+We also discussed additional concepts such as views, policies, aggregates, and external systems.
+
+
+* Views allow actors to perceive and interact with the system,
+* policies define the rules and constraints governing the system
+* aggregates group together related entities and
+* external systems represent dependencies or integrations.
+
+
+And lastly, we went through the ten facilitation tips to ensure successful event storming sessions.
+
+
+By applying these concepts, techniques, and facilitation tips, you'll be well-equipped to conduct
+event storming sessions and create software architectures that align with the needs of stakeholders and the domain.
+
+
+Congratulations on completing this section!  
+
+
+In the next section, we'll dive into a more hands-on topic of Hexagonal architecture!
