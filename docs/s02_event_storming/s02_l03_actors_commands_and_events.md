@@ -1,0 +1,87 @@
+# Actors, Commands and Events
+
+Now that we have introduced the technique and its format, it is time to start our first
+event storming session.
+
+In order to do this we want to operate on a business domain.  
+Let's take an example.  
+With the recent advent of large language models **prompt engineering** is a hot topic right now.  
+Building the right prompts for ChatGPT is becoming more and more valuable.  
+Let's build an online library of most useful ChatGPT prompts.
+
+Here are the **functional requirements** for our new app:
+
+* Anyone can sign up for the service and become a user.
+* User can log in and land on the main dashboard.
+* User can create a new prompt from the main dashboard.
+* User can browse the library of prompts by prompt categories.
+* User can leave a review with a rating on other user's prompts.
+* Prompts in a category are ordered by their rating in descending order.
+
+Sounds like a fairly simple domain model.  
+Let's start our first event storming session and explore it in more detail.
+
+> One note here, we are not considering non-functional requirements right now.  
+> For the purpose of our event storming exercise we will focus on exploring our domain model
+> only.
+
+In this lecture, we'll delve deeper into the core building blocks of event storming:
+
+* actors,
+* commands and
+* events.
+
+These concepts are fundamental to modeling the behavior and interactions within a system.
+
+Let's start with actors.  
+Actors represent the entities or systems that interact with our software.  
+They can be users, external systems, or even automated processes.  
+Understanding the actors involved helps us define the boundaries and responsibilities within the system.
+
+In our new app we can already identify two types of actors:
+
+* prospect (person that is not a user yet)
+* the actual user of the app.
+
+Let's add these actors to our event storming board.
+
+Next concept we want to focus on are commands.  
+Commands are the actions initiated by actors.  
+They represent the intentions or requests made by actors to trigger changes within the system.  
+Commands capture the user's intent and guide the behavior of the software.
+
+Just by looking at our functional requirements we can already identify several commands:
+
+* sign up,
+* log in,
+* create prompt,
+* browse prompt category and
+* leave review and rating.
+
+Let's include these commands as well as the actors that are initiating them.
+
+> For consistency, it is usually a good practice to describe commands with an imperative tone.  
+> For example, "do this", "create notification", etc.
+
+Finally, in this lecture we will talk about events.
+Events, represent state changes or significant occurrences within the system.  
+They capture the outcomes or results of the commands and provide a historical record of the system's behavior.  
+Events can be used for auditing, logging, or triggering subsequent actions.
+
+Let's identify events that are happening in our system:
+
+* user signed up,
+* user logged in,
+* prompt created,
+* category browsed and
+* review/rating submitted.
+
+> Best practice for describing events is using the past tense.
+> For example, "this happened", "notification created", etc. 
+
+During the event storming session, it's crucial to identify and document the actors, commands, and events
+accurately.  
+By doing so, we create a shared understanding of the system's behavior and lay the foundation for designing
+robust and efficient software architecture.
+
+Join me as we explore other domain modeling concepts.
