@@ -6,7 +6,6 @@ In this lecture we will kick off by revisiting Layered architecture.
 Chances are high that you have worked with this pattern before.
 Most of the applications I worked with in my career were structured in multiple layers.
 
-
 No wonder this is so, when you try to google “layered architecture” this is what you’ll get:
 
 (image)
@@ -27,12 +26,12 @@ Answers were quite interesting:
 
 (image)
 
- will also ignore the fact that most people chose FRONTEND most probably because I used the word CLIENT in the question,
- thus unfortunately creating immediate mental association between the two.
- The thing that interests me is that a room full of programmers was not able to strongly agree on where to put the HTTP
- client in the layered architecture.
+I will ignore the fact that most people chose FRONTEND most probably because I used the word CLIENT in the question,
+and because frontend usually consumes API via HTTP.
+The thing that interests me is that a room full of programmers was not able to strongly agree on where to put the HTTP
+client in the layered architecture.
 
-This was enlightening.
+This was very interesting.
 
 Perhaps it is good to repeat one more time the sentence emphasised by Google search:
 
@@ -57,11 +56,10 @@ There were two things which surprised me with this one:
 
 At the time I did this presentation I had already worked with hexagonal architecture and was completely blown away by
 tremendous increase in clarity on “what goes where“ that it brings.
-Also, I found its ability to keep code clean and maintainable and prevent “big ball of mud”, “code rot” and leaking of
-tech-specifics into the domain so much more powerful than most of the other patterns for structuring code I used until
-then.
+Also, I found its ability to keep code clean and maintainable and prevent “big ball of mud” so much more powerful than
+most of the other patterns for structuring code I used until then.
 
-When I asked those two questions above what developers actually did is:
+When I asked those two questions above, what developers actually did is:
 
 * they did not agree on “what goes where” in layered architecture and
 * they leaked technology details (HTTP, queue listener) into the domain.
